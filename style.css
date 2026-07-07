@@ -9,8 +9,8 @@ body{
 }
 
 nav{
-    background-color:#671cc4;
-    padding:50px;
+    background-color:#301b4b;
+    padding:10px;
 }
 
 .navbar{
@@ -30,7 +30,7 @@ nav{
 }
 
 .navbar a:hover{
-    background-color:#12b372;
+    background-color:#000000;
     color:rgb(100, 30, 186);
     border-radius:5px;
 }
