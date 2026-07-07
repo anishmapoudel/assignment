@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+nav{
+    background-color:#671cc4;
+    padding:50px;
+}
+
+.navbar{
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.navbar a{
+    color:rgb(199, 167, 167);
+    text-decoration:none;
+    font-size:40px;
+    font-weight:bold;
+    padding:8px 15px;
+    transition:0.5s;
+}
+
+.navbar a:hover{
+    background-color:#12b372;
+    color:rgb(100, 30, 186);
+    border-radius:5px;
+}
