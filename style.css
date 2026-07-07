@@ -13,14 +13,14 @@ nav{
     padding:10px;
 }
 
-.navbar{
+.links{
     list-style:none;
     display:flex;
     justify-content:center;
     gap:30px;
 }
 
-.navbar a{
+.links a{
     color:rgb(199, 167, 167);
     text-decoration:none;
     font-size:40px;
@@ -29,7 +29,7 @@ nav{
     transition:0.5s;
 }
 
-.navbar a:hover{
+.links a:hover{
     background-color:#000000;
     color:rgb(100, 30, 186);
     border-radius:5px;
