@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            position: relative;
+            height: 250px;
+            border: 2px solid black;
+            margin:20px;
+            padding:20px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .relative{
+background-color: aquamarine;
+position : relative;
+top: 30px;
+left: 20px;
+        }
+.absolute{
+    background-color: rgb(211, 137, 185);
+position : absolute;
+top: 20px;
+left: 20px;
+}
+.fixed{
+    background-color: rgb(146, 50, 214);
+position : fixed;
+bottom: 20px;
+right: 20px
+}
+.sticky{
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
+.spacer{
+    height: 100vh;
+}
+</style>
+</head>
+<body>
+    <h2>CSS position examples</h2>
+    <div class="box sticky">Sticky</div>
+    <div class="container">container </div>
+<div class="box relative">Relative</div>
+<div class="box absolute">Absolute</div>
+  
+    <div class="box fixed">Fixed</div>
+
+    <div class="space">Scrolll down to see sticky and fixed behaviour</div>
+</body>
+</html>                   
